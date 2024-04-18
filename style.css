@@ -1,0 +1,75 @@
+body{
+    /* background-color: rgba(0, 128, 0, 0.438); */
+    background-color: rgba(0, 0, 0, 0.808);
+    justify-content: center;
+    display: flex;
+    overflow: hidden !important;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    border-radius: 7px;
+     width: 20%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+    height: 29em !important;
+    background-color: coral;
+    width: 18.75em;
+}
+
+#firstDiv{
+   background-color: chocolate;
+    padding: 0.5em;
+    height: 20%;
+    overflow: hidden !important;
+    width: 18.72em;
+    
+}
+#secondDiv {
+    overflow: hidden !important;
+    width: 17.75em;
+    height: 90%;
+}
+
+#inp{
+    padding: 10px;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    font-weight: bold;
+    font-size: 1.4em;
+    height: 100%;
+    border: none;
+    overflow: hidden !important;
+    width: 100%;
+    text-align: right;
+}
+input:focus{
+    outline: none;
+}
+
+.buttondiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 12em !important;
+    
+}
+
+.buttonobjects {
+    width: 60px;
+    height: 40px;
+    margin-top: 1em !important;
+    border: none;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-left: 0.3em;
+    color: white;
+}
+
+
